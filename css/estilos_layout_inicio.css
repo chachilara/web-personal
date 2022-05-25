@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    margin:0px;
+    background: grey;
+    width: 100%;
+    height:80px;
+    position: fixed;
+    z-index: 100;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    overflow: hidden;
+    list-style: none;
+}
+
+nav ul li{
+}
+
+nav ul li a1{
+    float: left;
+    color: white;
+    font-family: "Oswald";
+    font-size: 38px;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 8px 10px;
+}
+
+nav ul li a{
+    float: right;
+    color: white;
+    font-family: "Oswald";
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 24px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: white;
+    background: black;
+}
+
+body{
+    font-family: "Oswald";
+    font-size: 16px;
+    background: white;
+    height: 200px;
+}
+
+.titulo {
+    margin: 30px;
+}
+
+.texto {
+    margin: 30px;
+}
+
+.carousel {
+    --current-slide: 100px;
+    vertical-align: center;
+    
+    /* we set position relative so absolute position works properly for the buttons */
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-button {
+    /* vertically centering the buttons */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+
+  /* basic styling */
+    padding: 0;
+    margin: 0.5rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    font-family: "Oswald";
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    transition: color 0.1s;
+}
+
+.carousel-button:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-button_next {
+  /* The "next slide button" will be at the right */
+  right: 0;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s;
+  transform: translateX(calc(-100% * var(--current-slide)));
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-button {
+    font-size: 2rem;
+    margin: 1rem;
+}
+    
+}
+footer{
+    margin-top: 30px;
+    width: 100%;
+    background: grey;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    overflow: hidden;
+    clear: both;
+}

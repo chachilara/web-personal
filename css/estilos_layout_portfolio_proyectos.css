@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    margin:0px;
+    background: grey;
+    width: 100%;
+    height:80px;
+    position: fixed;
+    z-index: 100;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    overflow: hidden;
+    list-style: none;
+}
+
+nav ul li{
+}
+
+nav ul li a1{
+    float: left;
+    color: white;
+    font-family: "Oswald";
+    font-size: 38px;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 8px 10px;
+}
+
+nav ul li a{
+    float: right;
+    color: white;
+    font-family: "Oswald";
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 26px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: white;
+    background: black;
+}
+
+.main{
+    background: white;
+    margin-top: 110px;
+    margin-left: 30px;
+    width: 44%;
+    float: left;
+}
+
+.main .imagen{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main .imagen img{
+    width: 100%;
+}
+
+body{
+    font-family: "Oswald";
+    font-size: 16px;
+    background: white;
+    height: 00px;
+    margin-bottom: 30px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+aside1 {
+    margin-top: 140px;
+    width: 680px;
+    height: 397px;
+    background: #c6c6c6;
+    padding: 20px;
+    color: white;
+    float: left;
+}
+
+aside1 .widget{
+    margin-bottom: 20px;
+}
+
+aside1 .widget .titulo{
+    color: white;
+    border-bottom: 1px solid #aaaaaa;
+    margin-bottom: 10px;
+}
+
+aside2 {
+    margin-top: 34px;
+    width: 680px;
+    height: 396px;
+    background: #c6c6c6;
+    padding: 20px;
+    color: white;
+    float: left;
+}
+
+aside2 .widget{
+    margin-bottom: 20px;
+}
+
+aside2 .widget .titulo{
+    color: white;
+    border-bottom: 1px solid #aaaaaa;
+    margin-bottom: 10px;
+}
+
+aside3 {
+    margin-top: 34px;
+    width: 680px;
+    height: 396px;
+    background: #c6c6c6;
+    padding: 20px;
+    color: white;
+    float: left;
+}
+
+aside3 .widget{
+    margin-bottom: 20px;
+}
+
+aside3 .widget .titulo{
+    color: white;
+    border-bottom: 1px solid #aaaaaa;
+    margin-bottom: 10px;
+}
+
+aside4 {
+    margin-top: 35px;
+    width: 680px;
+    height: 396px;
+    background: #c6c6c6;
+    padding: 20px;
+    color: white;
+    float: left;
+}
+
+aside4 .widget{
+    margin-bottom: 20px;
+}
+
+aside4 .widget .titulo{
+    color: white;
+    border-bottom: 1px solid #aaaaaa;
+    margin-bottom: 10px;
+}
+
+aside5 {
+    margin-top: 34px;
+    width: 680px;
+    height: 396px;
+    background: #c6c6c6;
+    padding: 20px;
+    color: white;
+    float: left;
+}
+
+aside5 .widget{
+    margin-bottom: 20px;
+}
+
+aside5 .widget .titulo{
+    color: white;
+    border-bottom: 1px solid #aaaaaa;
+    margin-bottom: 10px;
+}
+
+footer{
+    width: 100%;
+    background: grey;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    overflow: hidden;
+    clear: both;
+}
